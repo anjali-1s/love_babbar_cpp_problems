@@ -3,7 +3,7 @@
 using namespace std;
 
 // partitioning function ------->>
-int partition( int arr, int s, int e){
+int partition( int arr[], int s, int e){
          int pivot = arr[s];
          int count = 0;
          // for counting of that numbers which are less than pivot element 
