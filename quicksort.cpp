@@ -51,7 +51,7 @@ void quicksort ( int arr[], int s, int e){
     }
 
 
-int main{
+int main() {
           int arr[10]={1,5,4,3,2,0,6,7,6,5};
           int n = 10;
 
