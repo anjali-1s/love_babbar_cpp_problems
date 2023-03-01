@@ -32,3 +32,6 @@ int main(){
     int arrayIndex = binarysearch(arr,5,key);
     cout<<" the index of the key is :"<<arrayIndex<<endl;
 }
+
+
+vector<vector<int>> ans;
