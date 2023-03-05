@@ -19,7 +19,7 @@ class solution{
      void solve(vector<vector<int>>& m, int n, vector<string>& ans, int x, int y, vector<vector<int>>& visited, string &path){
             
             // base case
-            if((x > n-1) && (y > n-1)){
+            if((x == n-1) && (y == n-1)){
                 ans.push_back(path);
                 return;
             }
