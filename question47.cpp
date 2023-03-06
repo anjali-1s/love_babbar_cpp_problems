@@ -4,7 +4,7 @@
 using namespace std;
 
 // ispossible function
-bool ispossible(int arr[],int n, int m, int mid){
+bool ispossible(int arr[],int m, int n, int mid){
     int studentcount=1;
     int pagesum=0;
     for(int i=0; i<n; i++){
