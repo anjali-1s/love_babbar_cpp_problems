@@ -11,11 +11,14 @@ using namespace std;
     if(mintime+arr[i]<=mid){
         mintime=mintime+arr[i];
     }
+    else{
     paintercount++;
     if(paintercount > 2 || arr[i] > mid){
         return false;
     }
     mintime=arr[i];
+    }
+    
    }
    return true;
  }
