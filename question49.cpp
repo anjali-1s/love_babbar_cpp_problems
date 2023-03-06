@@ -7,7 +7,7 @@ using namespace std;
 // checking ispossible solution
 bool ispossible(int stalls[],int n, int k, int mid){
     int cowscount=1;
-    int lastpos=0;
+    int lastpos=stalls[0];
     for(int i=0; i<n; i++){
        if(stalls[i] - lastpos >=mid){
        cowscount++;
